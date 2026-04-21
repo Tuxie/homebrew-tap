@@ -1,7 +1,7 @@
 class TmuxWeb < Formula
   desc "Browser-based tmux frontend"
   homepage "https://github.com/Tuxie/tmux-web"
-  version "1.6.0"
+  version "1.6.1"
   license "MIT"
 
   depends_on "tmux"
@@ -9,22 +9,22 @@ class TmuxWeb < Formula
   on_macos do
     on_arm do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-darwin-arm64.tar.xz"
-      sha256 "2ed5c7310ce8be2e6deb326c2767e2760cb760ebadbef4be3ca184c221c89ad4"
+      sha256 "1988bfc68ae702ae2abc32fe8bd3f50a6864f3534a43fa4a72fbd505a192a5e5"
     end
     on_intel do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-darwin-x64.tar.xz"
-      sha256 "ceef653fb223c0a20eb4d0f60c3f56f2d00508c45a0efe7e543e00af24bff9f2"
+      sha256 "c23216f69964d9b50313ff13d43eb13acbfe66982da132fcbb103cc511f4b7e3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-linux-arm64.tar.xz"
-      sha256 "7d0dd919cb666d5cac384d4f77ce8dc701874036d2174821157354ae9a63121d"
+      sha256 "7cdff2f571c6c85658148779f8062b7c76f807843ce53adb1b551075adafa54d"
     end
     on_intel do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-linux-x64.tar.xz"
-      sha256 "4842991e2233531959960a50ad4e87266f6f00bb7f1f6007757341034e01edc0"
+      sha256 "21c8cf6cf026517acad1cd3f064a87f666b3cbf9a7b588fba9e7725faabd12f3"
     end
   end
 
