@@ -9,22 +9,22 @@ class TmuxWeb < Formula
   on_macos do
     on_arm do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-darwin-arm64.tar.xz"
-      sha256 "65a611bd8e61bf6670bd20296dd90c4ad84563b4520110bb6794966402fab588"
+      sha256 "07acf588bbfa38b4eacc20619b220186df98af0ef3a5a224a79e32c873355796"
     end
     on_intel do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-darwin-x64.tar.xz"
-      sha256 "ac975cbf9d64cffe28a4b3d4ce9a116b95976c3b0232f1fdf17e205e009e2e11"
+      sha256 "89c431994027cbe2e83b397074797204a1cc683fe4af96ece8d44ddf7174d026"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-linux-arm64.tar.xz"
-      sha256 "50e6abc47477d19148b4504724e888a69903b92ec82be5995412590b4fda0123"
+      sha256 "07dafbcce8ad6008e275decbd326a5f285f9b99c5edca7d0be1cce920d6fc815"
     end
     on_intel do
       url "https://github.com/Tuxie/tmux-web/releases/download/v#{version}/tmux-web-v#{version}-linux-x64.tar.xz"
-      sha256 "ab3e41b505ab3b43b0aced867a0efa0b39cfccecb5c8f8630c71b0d28e121e1a"
+      sha256 "e35b53b1d08cefab3dbe4b9cf91b25df97de9a0ef9aa9780882055db2de9f655"
     end
   end
 
