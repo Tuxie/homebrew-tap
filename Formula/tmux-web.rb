@@ -31,7 +31,7 @@ class TmuxWeb < Formula
   def install
     bin.install "tmux-web"
     doc.install "README.md", "LICENSE"
-    (prefix/"lib/systemd/user").install "tmux-web.service"
+    (prefix/"lib/systemd/user").install "tmux-web.service" if OS.linux?
   end
 
   test do
