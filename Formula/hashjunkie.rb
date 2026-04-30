@@ -4,6 +4,7 @@ class Hashjunkie < Formula
   license "MIT"
 
   release_version = "0.5.0"
+  version release_version
 
   on_macos do
     on_arm do
