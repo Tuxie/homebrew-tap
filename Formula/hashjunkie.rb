@@ -3,27 +3,27 @@ class Hashjunkie < Formula
   homepage "https://github.com/Tuxie/HashJunkie"
   license "MIT"
 
-  release_version = "0.3.0"
+  release_version = "0.4.0"
 
   on_macos do
     on_arm do
       url "https://github.com/Tuxie/HashJunkie/releases/download/v#{release_version}/hashjunkie-cli-#{release_version}-darwin-arm64.tar.xz"
-      sha256 "ee4f7c774507e4d522ebebcefee9ed95c2f3a3508daaabca7d22cff124ef7d92"
+      sha256 "348a7c3c9426a899ece91cd125dde8bcf211c87f8c54c3579f4d7841ed725c0e"
     end
     on_intel do
       url "https://github.com/Tuxie/HashJunkie/releases/download/v#{release_version}/hashjunkie-cli-#{release_version}-darwin-x64.tar.xz"
-      sha256 "c847e1e52b2e591bf9d244db3528330b55dca0ed5653b594e9334b0aa5066987"
+      sha256 "159efc044c1e3e5f3ba54b895e1399abcbd1818f5a2c97b92efc66e881c8ad06"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Tuxie/HashJunkie/releases/download/v#{release_version}/hashjunkie-cli-#{release_version}-linux-arm64-gnu.tar.xz"
-      sha256 "efe1dac679fd522f4f8053785afae641ed07982d8894ecea3bfb784d43afed33"
+      sha256 "1556a8df94f127cdef1d594442b592e5c9c6e9460489757f8ab1eddbb6d07665"
     end
     on_intel do
       url "https://github.com/Tuxie/HashJunkie/releases/download/v#{release_version}/hashjunkie-cli-#{release_version}-linux-x64-gnu.tar.xz"
-      sha256 "1188e7c4f66e6480b3764708852a637c1c6c0eb47fa23b2d72d4181e45abbe5b"
+      sha256 "93fe22dd21a2e3e8b9fed80c5366927aa1b54e4ff0ceb28787f5a4c7cb432e4a"
     end
   end
 
